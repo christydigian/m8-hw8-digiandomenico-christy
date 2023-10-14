@@ -116,6 +116,13 @@ section.hero > button {
 section.hero > button:hover {
   background-color:#FA5456;
   padding: 12px 30px;
+  animation: grow 2s ease-in;
+}
+
+@keyframes grow {
+  100% {
+    transform: 300ms, background-color 600ms
+  }
 }
 
 main article {
